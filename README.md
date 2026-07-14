@@ -75,8 +75,5 @@ Start the backend
 npm run server
 ```
 
-##  Live Demo
-
-Add your deployed application link here.
 
 
