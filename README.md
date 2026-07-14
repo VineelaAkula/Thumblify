@@ -15,7 +15,7 @@ An AI-powered full-stack web application that helps creators generate profession
 
 # Tech Stack
 
-# Frontend (/client)
+## Frontend (/client)
 
 - React 19 + TypeScript
 - Vite
@@ -23,7 +23,7 @@ An AI-powered full-stack web application that helps creators generate profession
 - React Router v7
 - Axios
 
-# Backend (/server)
+## Backend (/server)
 
 - Node.js + Express 5 + TypeScript
 - MongoDB + Mongoose
@@ -32,24 +32,24 @@ An AI-powered full-stack web application that helps creators generate profession
 - Google GenAI SDK (@google/genai) for image generation
 - Cloudinary (image hosting)
 
-##  Project Preview
+#  Project Preview
 
 > Add screenshots here after deployment.
 
-<h2>login Page</h2>
+## <h2>login Page</h2>
 <img src="screenshots/login.png" width="800">
 
-<h2>Home Page</h2>
+## <h2>Home Page</h2>
 <img src="screenshots/home.png" width="800">
 
-<h2>Generate Page</h2>
+## <h2>Generate Page</h2>
 <img src="screenshots/generate.png" width="800">
 
-<h2>Contact Page</h2>
+## <h2>Contact Page</h2>
 <img src="screenshots/contact.png" width="800">
 
 
-##  Getting Started
+##  Installation
 
 Clone the repository
 
