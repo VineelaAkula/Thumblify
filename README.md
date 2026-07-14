@@ -7,7 +7,7 @@ An AI-powered full-stack web application that helps creators generate profession
 
 - Authentication — Email/password signup and login with hashed passwords (bcrypt) and secure, MongoDB-backed sessions (express-session + connect-mongo)
 - AI Thumbnail Generation — Generates thumbnails via Google's Gemini image model (gemini-3-pro-image-preview) based on a title, optional prompt, style, color scheme, and aspect ratio
--Style & Color Presets — Choose from styles like Bold & Graphic, Tech/Futuristic, Minimalist, Photorealistic, and Illustrated, plus curated color schemes (vibrant, sunset, forest, neon, purple, monochrome, ocean, pastel)
+- Style & Color Presets — Choose from styles like Bold & Graphic, Tech/Futuristic, Minimalist, Photorealistic, and Illustrated, plus curated color schemes (vibrant, sunset, forest, neon, purple, monochrome, ocean, pastel)
 - Aspect Ratio Control — Generate thumbnails in 16:9, 1:1, or 9:16
 - Cloud Image Storage — Generated thumbnails are uploaded and served via Cloudinary
 - Generation History — View, preview, and delete past thumbnails from "My Generations"
@@ -17,20 +17,20 @@ An AI-powered full-stack web application that helps creators generate profession
 
 # Frontend (/client)
 
--React 19 + TypeScript
--Vite
--Tailwind CSS v4
--React Router v7
--Axios
+- React 19 + TypeScript
+- Vite
+- Tailwind CSS v4
+- React Router v7
+- Axios
 
 # Backend (/server)
 
--Node.js + Express 5 + TypeScript
--MongoDB + Mongoose
--express-session with connect-mongo (session store)
--bcrypt (password hashing)
--Google GenAI SDK (@google/genai) for image generation
--Cloudinary (image hosting)
+- Node.js + Express 5 + TypeScript
+- MongoDB + Mongoose
+- express-session with connect-mongo (session store)
+- bcrypt (password hashing)
+- Google GenAI SDK (@google/genai) for image generation
+- Cloudinary (image hosting)
 
 ##  Project Preview
 
