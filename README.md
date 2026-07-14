@@ -2,26 +2,39 @@
 
 An AI-powered full-stack web application that helps creators generate professional-quality thumbnails from text prompts in seconds. The application provides a modern user interface, secure authentication, and a seamless workflow for creating and downloading AI-generated thumbnails.
 
-##  Key Features
+# Features
 
-* AI-powered thumbnail generation
-* Secure user authentication
-* Responsive and modern UI
-* Credit-based image generation
-* Fast image creation workflow
-* Download generated thumbnails
-* User-friendly dashboard
 
-##  Built With
+ Authentication — Email/password signup and login with hashed passwords (bcrypt) and secure, MongoDB-backed sessions (express-session + connect-mongo)
+🤖 AI Thumbnail Generation — Generates thumbnails via Google's Gemini image model (gemini-3-pro-image-preview) based on a title, optional prompt, style, color scheme, and aspect ratio
+🎨 Style & Color Presets — Choose from styles like Bold & Graphic, Tech/Futuristic, Minimalist, Photorealistic, and Illustrated, plus curated color schemes (vibrant, sunset, forest, neon, purple, monochrome, ocean, pastel)
+📐 Aspect Ratio Control — Generate thumbnails in 16:9, 1:1, or 9:16
+☁️ Cloud Image Storage — Generated thumbnails are uploaded and served via Cloudinary
+🖼️ Generation History — View, preview, and delete past thumbnails from "My Generations"
+💻 Modern UI — React 19 + Tailwind CSS v4 frontend with smooth scrolling (Lenis), animations (Motion), and toast notifications
 
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-* Node.js
-* Express.js
-* MongoDB
-* JWT Authentication
+# Tech Stack
+
+# Frontend (/client)
+
+
+React 19 + TypeScript
+Vite
+Tailwind CSS v4
+React Router v7
+Axios
+Motion (animations), Lenis (smooth scroll), Lucide React (icons), React Hot Toast
+
+
+# Backend (/server)
+
+
+Node.js + Express 5 + TypeScript
+MongoDB + Mongoose
+express-session with connect-mongo (session store)
+bcrypt (password hashing)
+Google GenAI SDK (@google/genai) for image generation
+Cloudinary (image hosting)
 
 ##  Project Preview
 
